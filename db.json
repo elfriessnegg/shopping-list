@@ -1,0 +1,72 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "Mehl",
+      "amount": 1,
+      "done": true,
+      "description": "Weizenmehl, griffig",
+      "unit": "Kilogramm"
+    },
+    {
+      "id": 2,
+      "title": "Coca Cola",
+      "amount": 2,
+      "done": false,
+      "unit": "Liter"
+    },
+    {
+      "id": 3,
+      "title": "Käse",
+      "amount": 200,
+      "done": true,
+      "description": "Raclette",
+      "unit": "Gramm"
+    },
+    {
+      "id": 4,
+      "title": "Salami",
+      "amount": 15,
+      "done": true,
+      "description": "mit Knoblauchkruste",
+      "unit": "Dekagramm"
+    },
+    {
+      "id": 5,
+      "title": "Milch",
+      "amount": 2,
+      "done": false,
+      "description": "laktosefrei",
+      "unit": "Liter"
+    },
+    {
+      "id": 6,
+      "title": "Soletti",
+      "amount": 2,
+      "done": false,
+      "unit": "Packung"
+    },
+    {
+      "id": 7,
+      "title": "Bier",
+      "amount": 1,
+      "done": true,
+      "description": "Murauer oder Gösser",
+      "unit": "Kiste"
+    },
+    {
+      "id": 8,
+      "title": "Joghurt",
+      "amount": 3,
+      "done": false,
+      "description": "Naturjoghurt"
+    },
+    {
+      "id": 9,
+      "title": "Schlagobers",
+      "amount": 250,
+      "done": false,
+      "unit": "Milliliter"
+    }
+  ]
+}

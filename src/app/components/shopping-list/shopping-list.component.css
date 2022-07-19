@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&family=Montserrat:ital,wght@0,300;0,500;1,500;1,800;1,900&display=swap');
+
+.list-container {
+    font-family: "Kalam";
+    display: flex;
+    flex-flow: row wrap;
+    color: white;
+    margin: 60px 4px 0px;
+}
+
+.idItem {
+    width: 4%;
+    padding-left: 6px;
+    background-color: rgb(119,41,119);
+    margin-left: 3px;
+}
+
+.titleDescrItem {
+    width: 30%;
+    background-color: rgb(119,41,119);
+}
+
+.amountUnitItem {
+    width: 18%;
+    background-color: rgb(119,41,119);
+}
+
+.doneItem {
+    width: 10%;
+    background-color: rgb(119,41,119);
+}
+
+.deleteItem {
+    width: 20%;
+    background-color: rgb(119,41,119);
+}
+
+.toggleItem {
+    width: 17%;
+    background-color: rgb(119,41,119);
+}

@@ -1,0 +1,18 @@
+<app-shopping-form
+    (onItemAddEvent)="addItem($event)" (onItemFilterEvent)="filterList($event)"
+    (onItemSortEvent)="sortList($event)">
+</app-shopping-form>
+
+<div class="list-container">
+    <h2 class="idItem">ID</h2>
+    <h2 class="titleDescrItem">Title - Description</h2>
+    <h2 class="amountUnitItem">Amount + Unit</h2>
+    <h2 class="doneItem">Done?</h2>
+    <h2 class="deleteItem">Delete</h2>
+    <h2 class="toggleItem">Toggle</h2>
+</div>
+
+<ng-container *ngFor="let i of items">
+    <app-shopping-item [item]="i" (onItemDeleteEvent)="removeItem($event)" (onItemUpdateEvent)="updateEvent($event)">
+    </app-shopping-item>
+</ng-container>

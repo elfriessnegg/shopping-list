@@ -1,0 +1,14 @@
+<!-- for ngStyle this link was helpful: https://codecraft.tv/courses/angular/built-in-directives/ngstyle-and-ngclass/ -->
+<div class="list-container" [ngStyle]="{'background-color':item.done ? 'lightgreen' : 'lightcoral'}">
+    <p class="idItem">{{item.id}}</p>
+    <p class="titleDescrItem">{{item.title}} {{getHyphen()}} {{item.description}}</p>
+    <p class="amountUnitItem">{{item.amount}} {{item.unit}}</p>
+    <p class="doneItem" [ngStyle]="{'color':item.done ? 'darkgreen' : 'red'}">{{item.done ? "✔" : "X"}}</p>
+    <!-- Buttons -->
+    <div class="deleteItem">
+        <button (click)="onDelete()" id="deleteBtn">Delete this item</button>
+    </div>
+    <div class="toggleItem">
+        <button (click)="toggleDone()" id="toggleBtn">{{getButtonText()}}</button>
+    </div>
+</div>

@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Montserrat:ital,wght@0,300;0,500;1,500;1,800;1,900&display=swap');
+
+h1 {
+    font-family: "Kalam";
+    text-align: center;
+    font-size: 3rem;
+    background-color: rgb(119, 40, 119);
+    color: white;
+    margin: 20px 10px;
+}

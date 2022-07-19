@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&family=Montserrat:ital,wght@0,300;0,500;1,500;1,800;1,900&display=swap');
+
+h2 {
+    font-family: Kalam;
+    color: rgb(119,40,119);
+}
+
+label {
+    font-family: Kalam;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+#inputTitle {
+    width: 343px;
+}
+
+input, textarea, select {
+    border: 1px solid;
+    border-color: rgb(119,40,119);
+    border-radius: 5px;
+    padding: 3px;
+    vertical-align: middle;
+}
+ input:hover, textarea:hover, select:hover {
+    background-color: rgb(196, 124, 196);
+ }
+
+textarea {
+    vertical-align: top;
+}
+
+#inputUnit {
+    width: 130px;
+    -webkit-appearance: none;
+    background: white url("../../../assets/pfeil.png") no-repeat 95% 50%;
+    background-size: 8%;
+}
+
+#inputUnit:hover {
+    background-color: rgb(196, 124, 196);
+}
+
+#inputDone {
+    width: 17px;
+    height: 17px;
+    vertical-align: top;
+    -webkit-appearance: none;
+    background-color: white;
+}
+
+#inputDone:hover {
+    background-color: rgb(196, 124, 196);
+}
+
+#inputDone:checked {
+    background: rgb(158, 230, 158) url("../../../assets/greenCheck.png") no-repeat 50% 50%;
+    background-size: 80%;
+}
+
+#inputDone:checked:hover {
+    background: rgb(196,124,196) url("../../../assets/greenCheck.png") no-repeat 50% 50%;
+    background-size: 80%;
+}
+
+#addBtn, #btnFilter, #btnSort {
+    font-family: Kalam;
+    font-size: large;
+    width: 390px;
+    border-radius: 5px;
+    background-color: rgb(119,40,119);
+    color: white;
+    padding-top: 5px;
+}
+
+#addBtn:hover, #btnFilter:hover, #btnSort:hover {
+    background-color: rgb(196, 124, 196);
+    color: black;
+    cursor: pointer;
+}
+
+#addBtn:active, #btnFilter:active, #btnSort:active {
+    background-color: white;
+    color: black;
+}
+
+.dropDown {
+    -webkit-appearance: none;
+    background: white url("../../../assets/pfeil.png") no-repeat 95% 50%;
+}
+
+#filterDone {
+    width: 95px;
+    background-size: 11%;
+}
+
+#sortItems {
+    width: 103px;
+    background-size: 10%;
+}
+
+#btnFilter, #btnSort {
+    width: 212px;
+    margin-top: 15px;
+}
+
+#btnFilter {
+    margin-bottom: 45px;
+}

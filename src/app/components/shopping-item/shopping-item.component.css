@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&family=Montserrat:ital,wght@0,300;0,500;1,500;1,800;1,900&display=swap');
+
+.list-container {
+    display: flex;
+    flex-flow: row wrap;
+    border: 3px solid rgb(119, 41, 119);
+    border-radius: 5px;
+    margin: 4px;
+    align-items: center;
+}
+
+.idItem {
+    width: 4%;
+    padding-left: 6px;
+}
+
+.titleDescrItem {
+    width: 30%;
+}
+
+.amountUnitItem {
+    width: 18%;
+}
+
+.doneItem {
+    width: 10%;
+    font-family: Kalam;
+    font-weight: 1000;
+    font-size: large;
+}
+
+.deleteItem {
+    width: 20%;
+    display: flex;
+    vertical-align: middle;
+}
+
+#deleteBtn {
+    font-family: Kalam;
+    font-size: medium;
+    width: 150px;
+    border-radius: 5px;
+    background-color: rgb(119,40,119);
+    color: white;
+    height: 35px;
+    align-self: center;
+    padding-top: 5px;
+}
+
+#deleteBtn:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+#deleteBtn:active, #toggleBtn:active {
+    background-color: white;
+    color: black;
+}
+
+.toggleItem {
+    display: flex;
+    vertical-align: middle;
+}
+
+#toggleBtn {
+    font-family: Kalam;
+    font-size: medium;
+    border-radius: 5px;
+    background-color: rgb(119,40,119);
+    color: white;
+    height: 35px;
+    align-self: center;
+    padding-top: 5px;
+    width: 150px;
+}
+
+#toggleBtn:hover {
+    background-color: rgb(196, 124, 196);
+    color: black;
+    cursor: pointer;
+}
