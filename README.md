@@ -6,6 +6,7 @@ This is a simple shopping list, where items can be added, marked as done or undo
 
 ![shopping list form](https://github.com/elfriessnegg/shopping-list/blob/main/shopping-list-form.png?raw=true)
 
+![shopping list with items](https://github.com/elfriessnegg/shopping-list/blob/main/shopping-list-items.png?raw=true)
 
 ## Development server
 
