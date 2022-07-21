@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 This is a simple shopping list, where items can be added, marked as done or undone, and deleted. One item consists of the title, an optional description, the amount, an optional unit, and whether it's already done. The items can be sorted by ID, title or unit. They can also be filtered to only show the ones that are done or the ones that are not done.
 
-![shopping list form](https://github.com/elfriessnegg/shopping-list/blob/main/shopping-list-form.jpg?raw=true)
+![shopping list form](https://github.com/elfriessnegg/shopping-list/blob/main/shopping-list-form.png?raw=true)
 
 
 ## Development server
